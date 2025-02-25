@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunus Akçiçek - Yazılım Geliştirici</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <svg class="nav-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <g class="logo-icon">
+                    <!-- Kod sembolü -->
+                    <path class="logo-bracket" d="M35,25 L15,50 L35,75" stroke="currentColor" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path class="logo-bracket" d="M65,25 L85,50 L65,75" stroke="currentColor" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Orta çizgi -->
+                    <path class="logo-slash" d="M55,20 L45,80" stroke="currentColor" stroke-width="8" fill="none" stroke-linecap="round"/>
+                </g>
+            </svg>
+            <span>Yunus Akçiçek</span>
+        </div>
+        <div class="nav-menu">
+            <a href="#about" class="nav-link" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+            <a href="#experience" class="nav-link" data-tr="Deneyim" data-en="Experience">Deneyim</a>
+            <a href="#education" class="nav-link" data-tr="Eğitim" data-en="Education">Eğitim</a>
+            <a href="#skills" class="nav-link" data-tr="Yetenekler" data-en="Skills">Yetenekler</a>
+            <a href="#contact" class="nav-link" data-tr="İletişim" data-en="Contact">İletişim</a>
+        </div>
+        <div class="nav-controls">
+            <div class="language-switch">
+                <button class="lang-btn active" data-lang="tr">TR</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <div class="theme-switch">
+                <button class="theme-btn" id="themeToggle">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="profile-info">
+                    <h1>Yunus Akçiçek</h1>
+                    <h2>Yazılım Geliştirici</h2>
+                    <p class="tagline">Backend Geliştirici | .NET Geliştirici | Test Mühendisi</p>
+                </div>
+                
+                <div class="about-text">
+                    <p>1996 yılında Malatya'da doğdum. İlk ve orta öğretimimi Malatya'da tamamladıktan sonra Kayseri'de Üniversite eğitimimi bitirdim. Eğitim hayatım boyunca teknoloji ve yazılım alanına olan ilgim, beni sürekli yeni şeyler öğrenmeye ve kendimi geliştirmeye yönlendirdi.</p>
+                    <p>Üniversite eğitimimi tamamladıktan sonra İstanbul'da profesyonel iş hayatıma başladım. 2021 yılından beri İstanbul'da yaşıyor ve yazılım sektöründe aktif olarak çalışıyorum. Evliyim ve bir kız çocuk babasıyım.</p>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+90 530 218 80 44</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>yunus.akcicek@icloud.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>ISTANBUL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">İş Deneyimi</h2>
+            <div class="section-container">
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>.Net Backend Geliştiricisi</h3>
+                            <h4>Denge Bilgisayar Ltd. Şti.</h4>
+                            <p class="date">2021 – Devam Ediyor</p>
+                            <div class="description">
+                                <p>E-ticaret platformu için kapsamlı CRM & ERP çözümleri geliştirdim:</p>
+                                <ul>
+                                    <li>LOGO muhasebe yazılımı ile tam entegrasyon</li>
+                                    <li>Stok & Satış yönetimi sistemleri</li>
+                                    <li>Satınalma süreçleri ve raporlama araçları</li>
+                                    <li>Yönetimsel ve finansal raporlama modülleri</li>
+                                    <li>Teknik servis & depo yönetim sistemleri</li>
+                                    <li>Kargo entegrasyonları ve takip sistemleri</li>
+                                </ul>
+                                <p>Kullanılan Teknolojiler:</p>
+                                <ul>
+                                    <li>.NET Framework & .NET Core</li>
+                                    <li>C#, ASP.NET MVC & Web API</li>
+                                    <li>MS SQL Server</li>
+                                    <li>HTML5, CSS3, JavaScript</li>
+                                    <li>jQuery, Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>Yazılım Test Mühendisi</h3>
+                            <h4>Optiim Yazılım</h4>
+                            <p class="date">08/2020 – 09/2021</p>
+                            <div class="description">
+                                <p>Test süreçlerinde kapsamlı deneyim:</p>
+                                <ul>
+                                    <li>Manuel test senaryoları oluşturma ve uygulama</li>
+                                    <li>Java Selenium ile test otomasyonu geliştirme</li>
+                                    <li>Postman ile API testleri</li>
+                                    <li>JMeter ile performans testleri</li>
+                                    <li>Grafana ve influxDB ile test metriklerinin takibi</li>
+                                    <li>AgeSA projesinde 6 ay test mühendisliği</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>Bilgisayar Mühendisliği Stajı</h3>
+                            <h4>Denge Bilgisayar Ltd. Şti.</h4>
+                            <p class="date">10/2019 – 04/2020</p>
+                            <div class="description">
+                                <p>DengeIK İnsan Kaynakları Yazılımı Projesi:</p>
+                                <ul>
+                                    <li>ASP.NET MVC mimarisi ile web uygulaması geliştirme</li>
+                                    <li>MS SQL Server veritabanı tasarımı ve yönetimi</li>
+                                    <li>Responsive tasarım için HTML5 ve CSS3 kullanımı</li>
+                                    <li>jQuery ile dinamik kullanıcı arayüzü geliştirme</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <h2 class="section-title">Eğitim</h2>
+            <div class="section-container">
+                <div class="education-grid">
+                    <div class="education-card" data-aos="fade-up">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Erciyes Üniversitesi</h3>
+                        <h4>Bilgisayar Mühendisliği</h4>
+                        <p class="date">2014 - 2020</p>
+                        <p class="location">Kayseri</p>
+                    </div>
+
+                    <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>Konak Anadolu Lisesi</h3>
+                        <h4>Lise Eğitimi</h4>
+                        <p class="date">2010 - 2014</p>
+                        <p class="location">Malatya</p>
+                    </div>
+
+                    <div class="education-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="education-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Türkiyem İ.Ö.O</h3>
+                        <h4>İlk ve Orta Okul</h4>
+                        <p class="date">2002 - 2010</p>
+                        <p class="location">Malatya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Yetenekler</h2>
+            <div class="section-container">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Backend</h3>
+                        <p>.Net & .Net Core</p>
+                        <p>Java, Selenium</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Veritabanı</h3>
+                        <p>MSSQL, PostgreSQL</p>
+                        <p>OracleDB, MySQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                        <p>Vue.js</p>
+                        <p>HTML, CSS</p>
+                        <p>JQUERY</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Proje Yönetimi</h3>
+                        <p>Jira</p>
+                        <p>Scrum & Kanban</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="mailto:yunus.akcicek@icloud.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Yunus Akçiçek. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html> 
